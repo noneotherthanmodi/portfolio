@@ -24,10 +24,10 @@ export default function LiveLinks() {
       <ul className="live-list">
         {links.map((link) => (
           <li key={link.code}>
-            <a href={`${basePath}/s/${link.code}/`}>
+            <a href={`${basePath}/s/${link.code}/`} data-goatcounter-click={`short-link-${link.alias}`}>
               <span className="live-host">{origin}</span>/s/<strong>{link.code}</strong>
             </a>
-            <a href={`${basePath}/s/${link.alias}/`} className="live-alias">
+            <a href={`${basePath}/s/${link.alias}/`} className="live-alias" data-goatcounter-click={`short-link-${link.alias}`}>
               /s/{link.alias}
             </a>
             <span className="live-target">→ {link.title}</span>

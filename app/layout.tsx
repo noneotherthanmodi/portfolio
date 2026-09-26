@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
+import Script from "next/script";
 
 import "@fontsource-variable/fraunces/full.css";
 import "@fontsource-variable/fraunces/full-italic.css";
@@ -29,7 +30,11 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        {/* Cookieless analytics; ignores localhost by default. */}
+        <Script data-goatcounter="https://modi.goatcounter.com/count" src="https://gc.zgo.at/count.js" strategy="afterInteractive" />
+      </body>
     </html>
   );
 }

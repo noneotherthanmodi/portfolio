@@ -73,7 +73,7 @@ export default function FreelanceBrief({
           {"  "}<span className="key">&quot;timeline&quot;</span>: {JSON.stringify(timeline)}{"\n"}
           {"}"}
         </pre>
-        <a className="btn btn-ink brief-cta" href={href}>
+        <a className="btn btn-ink brief-cta" href={href} data-goatcounter-click="send-idea">
           Send the idea <Arrow dir="up-right" size={14} />
         </a>
         <p className="brief-alt">

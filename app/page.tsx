@@ -415,7 +415,7 @@ export default function HomePage() {
               </em>
             </h2>
             <div className="contact-row" data-reveal>
-              <a className="contact-email" href={`mailto:${email}`}>
+              <a className="contact-email" href={`mailto:${email}`} data-goatcounter-click="email-contact">
                 {email}
                 <Arrow dir="up-right" size={28} />
               </a>
@@ -434,7 +434,7 @@ export default function HomePage() {
                 <span className="ok">200 OK</span> trace complete in <SessionTime />
               </span>
               <span className="label">© {new Date().getFullYear()} {portfolio.name}</span>
-              <span className="label hide-sm">Set in Fraunces, Inter Tight &amp; JetBrains Mono. No trackers. No cookies.</span>
+              <span className="label hide-sm">Set in Fraunces, Inter Tight &amp; JetBrains Mono. No cookies. Privacy-friendly analytics.</span>
               <a className="label link-draw" href="#intake">
                 Back to intake <Arrow dir="up" size={12} />
               </a>
