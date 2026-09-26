@@ -49,8 +49,8 @@ export default function HomePage() {
             <span className="label">01 — intake</span>
             <span className="label hide-sm">{portfolio.role}</span>
             <span className="label hide-sm">{portfolio.location} · {portfolio.coordinates}</span>
-            <a className="label status link-draw" href="#freelance">
-              <span className="pulse" aria-hidden="true" /> Available for freelance
+            <a className="label status link-draw" href="#ideas">
+              <span className="pulse" aria-hidden="true" /> Open to spending time on crazy ideas
             </a>
           </div>
 
@@ -354,17 +354,17 @@ export default function HomePage() {
         </section>
 
         {/* 07 — accept */}
-        <section id="freelance" className="freelance" aria-labelledby="freelance-title">
+        <section id="ideas" className="freelance" aria-labelledby="freelance-title">
           <div className="wrap">
             <div className="freelance-head">
               <span className="label" data-reveal>07 — accept</span>
               <p className="freelance-flag" data-reveal>
-                <span className="pulse" aria-hidden="true" /> Now accepting freelance projects
+                <span className="pulse" aria-hidden="true" /> Open to interesting problems
               </p>
               <h2 id="freelance-title" className="display" data-reveal>
-                <SplitWords text="Freelance, open." />{" "}
+                <SplitWords text="Bring me anything" />{" "}
                 <em>
-                  <SplitWords text="Bring me anything." offset={2} />
+                  <SplitWords text="interesting. Anytime." offset={3} />
                 </em>
               </h2>
               <p className="section-note" data-reveal>{portfolio.freelance.note}</p>
@@ -383,7 +383,7 @@ export default function HomePage() {
               Not on the list? <em>Ask anyway</em> — “anything” is meant literally.
             </p>
 
-            <ol className="process" aria-label="How an engagement works" data-reveal>
+            <ol className="process" aria-label="How we’d work together" data-reveal>
               {portfolio.freelance.process.map((step, index) => (
                 <li key={step.title}>
                   <span className="process-n">0{index + 1}</span>
@@ -422,8 +422,8 @@ export default function HomePage() {
               <CopyEmail email={email} />
             </div>
             <p className="contact-note" data-reveal>
-              Freelance projects, agentic workflows, backend platforms — anything that has to work in the real world,
-              not just in the demo. Based in {portfolio.location}.
+              Side projects, agentic workflows, backend platforms — anything that has to work in the real world,
+              not just in the demo. Based in {portfolio.location}. Can fly anywhere for the right project.
             </p>
           </div>
           </div>

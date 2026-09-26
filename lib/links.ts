@@ -29,7 +29,7 @@ const FIRST_ID = 100_000;
 const entries = [
   { alias: "work", target: "/#work", title: "Selected systems" },
   { alias: "design", target: "/#design", title: "System design study" },
-  { alias: "freelance", target: "/#freelance", title: "Freelance" },
+  { alias: "ideas", target: "/#ideas", title: "Ideas & collaborations" },
   { alias: "path", target: "/#path", title: "Career path" },
   { alias: "hello", target: "/#contact", title: "Contact" },
 ];

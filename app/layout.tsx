@@ -10,7 +10,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Udit Narayan Modi — GenAI & Backend Engineer",
   description:
-    "GenAI and backend engineer in Bengaluru, available for freelance. I turn language models into production systems — agentic workflows, Django and FastAPI backends, cloud delivery on Azure and GCP, and end-to-end products built with Claude Code and Codex.",
+    "GenAI and backend engineer in Bengaluru. I turn language models into production systems — agentic workflows, Django and FastAPI backends, cloud delivery on Azure and GCP, and end-to-end products built with Claude Code and Codex.",
   applicationName: "Udit Narayan Modi",
   authors: [{ name: "Udit Narayan Modi" }],
   openGraph: {

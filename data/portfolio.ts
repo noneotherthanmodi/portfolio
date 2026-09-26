@@ -78,7 +78,7 @@ export const portfolio = {
       evidence:
         "End-to-end products built and delivered on agentic coding platforms — including the site you’re reading. Context engineering with CLAUDE.md and AGENTS.md, subagents, hooks, MCP servers, and verification loops that keep agent output production-grade.",
       tags: ["Claude Code", "Codex", "Subagents", "MCP", "Hooks", "Context engineering"],
-      collection: "Independent & freelance",
+      collection: "Independent work",
       status: "Delivered",
       figure: "Many hands, one owner.",
       medium: "Claude Code, Codex, subagents, MCP servers, hooks, human review",
@@ -186,7 +186,7 @@ export const portfolio = {
     ],
     process: [
       { title: "Brief", body: "Tell me the problem in a few lines. No deck required." },
-      { title: "Scope", body: "We agree on what done looks like, the timeline, and the cost — up front." },
+      { title: "Scope", body: "We agree on what done looks like, and how we get there." },
       { title: "Build", body: "Working demos as it takes shape, not status reports." },
       { title: "Hand over", body: "Deployed, documented, and yours — code, access, and a clear path forward." },
     ],

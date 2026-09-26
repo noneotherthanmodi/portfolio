@@ -19,11 +19,11 @@ export default function FreelanceBrief({
 
   const labels = types.filter((type) => picked.includes(type.id)).map((type) => type.label);
   const when = timelines.find((item) => item.id === timeline)?.label;
-  const subject = `Freelance project — ${labels.length ? labels.join(", ") : "let’s talk"}`;
+  const subject = `Project idea — ${labels.length ? labels.join(", ") : "let’s talk"}`;
   const body = [
     "Hi Udit,",
     "",
-    "I’d like to talk about a freelance project.",
+    "I have an idea I’d like to talk through.",
     "",
     `What: ${labels.join(", ") || "—"}`,
     `Timeline: ${when ?? "—"}`,
@@ -40,7 +40,7 @@ export default function FreelanceBrief({
     <div className="brief">
       <div className="brief-form">
         <div className="brief-intro">
-          <h3>Start a brief.</h3>
+          <h3>Pitch me an idea.</h3>
           <p>Ten seconds. It opens your email with the details filled in.</p>
         </div>
 
@@ -74,10 +74,10 @@ export default function FreelanceBrief({
           {"}"}
         </pre>
         <a className="btn btn-ink brief-cta" href={href}>
-          Send the brief <Arrow dir="up-right" size={14} />
+          Send the idea <Arrow dir="up-right" size={14} />
         </a>
         <p className="brief-alt">
-          Or write directly — <a className="link-draw" href={`mailto:${email}?subject=${encodeURIComponent("Freelance project")}`}>{email}</a>
+          Or write directly — <a className="link-draw" href={`mailto:${email}?subject=${encodeURIComponent("Project idea")}`}>{email}</a>
         </p>
       </div>
     </div>

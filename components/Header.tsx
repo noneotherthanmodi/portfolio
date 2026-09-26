@@ -7,7 +7,7 @@ const links = [
   { href: "#work", label: "Work", n: "03" },
   { href: "#design", label: "Design", n: "04" },
   { href: "#path", label: "Path", n: "06" },
-  { href: "#freelance", label: "Freelance", n: "07" },
+  { href: "#ideas", label: "Ideas", n: "07" },
 ];
 
 const clock = new Intl.DateTimeFormat("en-GB", {
@@ -103,8 +103,8 @@ export default function Header({ email }: { email: string }) {
             <span className="pulse" aria-hidden="true" />
             BLR {time || "--:--"}
           </span>
-          <a className="btn btn-ink btn-sm" href="#freelance">
-            Start a project <Arrow dir="up-right" size={14} />
+          <a className="btn btn-ink btn-sm" href="#contact">
+            Say hello <Arrow dir="up-right" size={14} />
           </a>
           <button
             ref={toggle}
